@@ -4,6 +4,25 @@
 
 Calculates user bills for a mass transit system based on journey data, applying zone-based pricing and daily/monthly caps
 
+## Task Requirements
+
+1. Produce production-quality code with tests
+2. Take command line arguments for input/output files
+3. Calculate total charge for each customer's transit journeys
+4. Apply pricing rules:
+
+- £2 base fee per journey
+- Additional zone-based costs:
+
+Zone 1: £0.80
+Zones 2-3: £0.50
+Zones 4-5: £0.30
+Zone 6+: £0.10
+
+- £5 fee for erroneous journeys
+- Daily cap: £15
+- Monthly cap: £100
+
 ## Requirements
 
 - Python 3.7+
